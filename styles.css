@@ -1,0 +1,32 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.body {
+  background-color: #000958;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.container {
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.container__title {
+  color: white;
+}
+
+.container__button {
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 10px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
