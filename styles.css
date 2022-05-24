@@ -24,9 +24,10 @@
 }
 
 .container__button {
-    border-radius: 10px;
-    border-color: transparent;
-    padding: 10px;
-    background-color: blueviolet;
-    cursor: pointer;
+  margin-top: 50px;
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 10px;
+  background-color: blueviolet;
+  cursor: pointer;
 }
