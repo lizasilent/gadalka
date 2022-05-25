@@ -12,11 +12,15 @@
 }
 
 .container {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
   background-color: white;
   height: 500px;
   width: 500px;
   border-radius: 10px;
   margin: 0 auto;
+  padding: 50px;
 }
 
 .container__title {
@@ -24,10 +28,30 @@
 }
 
 .container__button {
-  margin-top: 50px;
+  margin-bottom: 10px;
   border-radius: 10px;
   border-color: transparent;
   padding: 10px;
   background-color: blueviolet;
   cursor: pointer;
+}
+
+.container__box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+}
+
+
+.check {
+  border: 1px solid black;
+  height: 40%;
+  width: 40%;
+  
+  /* margin-right: 10px; */
+
 }
